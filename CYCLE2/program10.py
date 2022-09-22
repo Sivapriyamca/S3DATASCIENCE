@@ -1,0 +1,23 @@
+import numpy as np
+print("Sivapriya Rajan")
+print("SJC21MCA-2042")
+print("   ")
+arr1=np.array([2,3,6,5,8,4,7])
+print("given array",arr1)
+newarr1=np.append(arr1,17)
+newarr2=np.append(arr1,[21,12,40,52])
+print("array after appending a value ",newarr1)
+print("array after appending mutiple values",newarr2)
+print("\n")
+A = np.array( [ [1, 5, 3],
+                        [ 4, 2, 7] ])
+print("2d array\n",A)
+newarr2d = np.append(A, [20, 30, 40])
+print("after appending",newarr2d)
+print("  ")
+B = np.array([[70, 80, 90],
+                         [61, 62, 63]])
+new = np.append(A, B , axis=1)
+print("array A\n",A)
+print("\narray B\n",B)
+print("\nappending two arrays A and B :\b",new)

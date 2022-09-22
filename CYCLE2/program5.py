@@ -1,0 +1,22 @@
+import numpy as np
+print("Sivapriya Rajan")
+print("SJC21MCA-2042")
+print("   ")
+array=np.arange(start=2,stop=31,step=2)
+print("first 15 even numbers")
+print(array)
+print("elements from index 2 to 8 using arange function")
+array1=np.arange(start=6,stop=18,step=2)
+print(array1)
+print("elements from index 2 to 8 using slice function")
+s=slice(2,8)
+print(array[s])
+print("last 3 elements using negative index")
+array2=array[-3:31]
+print(array2)
+print("alternative elements of array")
+array3=np.arange(start=2,stop=31,step=4)
+print(array3)
+print("last 3 alternative elements")
+alt=array3[-3:31]
+print(alt)
